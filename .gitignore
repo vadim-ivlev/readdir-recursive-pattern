@@ -1,6 +1,6 @@
 push.sh
 .vscode/
-
+test
 
 # Dependency directories
 node_modules/
