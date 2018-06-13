@@ -1,12 +1,12 @@
 # readdir-recursive-pattern
-Read a directory recursively. Return files matching a RegEx pattern.
+Recursively list all files in a directory and its subdirectories that match a RegEx pattern.
 
 
-Install
+### Install
 
     npm install readdir-recursive-pattern
 
-Example
+### Example
 
     var read = require('fs-readdir-recursive')
     read(__dirname) === [
@@ -17,7 +17,7 @@ Example
       'README.md'
     ]
 
-API
+### API
 
     read(root [, filter])
     
