@@ -8,13 +8,17 @@ Recursively list all files in a directory and its subdirectories that match a Re
 
 ### Example
 
-    var read = require('fs-readdir-recursive')
-    read(__dirname) === [
-      'test/test.js',
-      'index.js',
-      'LICENSE',
-      'package.json',
-      'README.md'
+    var listFiles = require('readdir-recursive-pattern');
+
+    listFiles('testdir') === [
+        'testdir/a.htm',
+        'testdir/b.html',
+        'testdir/c.html',
+        'testdir/sub0/1.gif',
+        'testdir/sub0/2.gif',
+        'testdir/sub0/3.jpg',
+        'testdir/sub0/sub1/1.htm',
+        'testdir/sub0/sub1/2.htm' 
     ]
 
 ### API
