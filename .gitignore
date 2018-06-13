@@ -1,6 +1,6 @@
+_site
+.sass-cache
 
 .vscode
-
-# Dependency directories
+push.sh
 node_modules
-
