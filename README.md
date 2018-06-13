@@ -23,13 +23,11 @@ Recursively list all files in a directory and its subdirectories that match a Re
 
 ### API
 
-    read(root [, filter])
+    listFiles(root [, regex])
     
-root is the directory you wish to scan. filter is an optional filter for the files with three params(name, index, dir). By default, filter is:
+root is the directory you wish to scan. regex is an optional parameter for the files to filter. For example to list all html files:
 
-    function (name) {
-      return name[0] !== '.'
-    }
+    listFiles(root , /\.html$/ )
     
-Which basically just ignores . files.
+Which basically just ignores all other files.
 
