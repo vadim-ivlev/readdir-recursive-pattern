@@ -8,6 +8,7 @@ Recursively list all files in a directory and its subdirectories that match a Re
 
 ### Example
 
+```javascript
     var listFiles = require('readdir-recursive-pattern');
 
     listFiles('testdir') === [
@@ -20,14 +21,17 @@ Recursively list all files in a directory and its subdirectories that match a Re
         'testdir/sub0/sub1/1.htm',
         'testdir/sub0/sub1/2.htm' 
     ]
+```
 
 ### API
 
+```javascript
     listFiles(root [, regex])
-    
-root is the directory you wish to scan. regex is an optional parameter for the files to filter. For example to list all html files:
+```    
 
+`root` is the directory you wish to scan. `regex` is an optional parameter for the files to filter. For example to list all html files:
+
+```javascript
     listFiles(root , /\.html$/ )
-    
-Which basically just ignores all other files.
+```    
 
