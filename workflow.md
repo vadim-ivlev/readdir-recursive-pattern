@@ -2,3 +2,9 @@ after push to [github](https://github.com/vadim-ivlev/readdir-recursive-pattern)
 
     git push
     npm publish
+
+used:
+
+- ava test runner
+- npm publish
+
