@@ -12,8 +12,6 @@ import listFiles from '../';
 
 
 
-
-
 test('list all files', t => {
 	t.deepEqual(
         listFiles('testdir', /^((?!DS_Store).)*$/ ).sort(), // negative lookahead
