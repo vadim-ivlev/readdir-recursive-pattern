@@ -36,3 +36,4 @@ Recursively list all files in a directory and its subdirectories that match a Re
     listFiles(root , /\.html$/ )
 ```    
 
+[npmjs](https://www.npmjs.com/package/readdir-recursive-pattern)
