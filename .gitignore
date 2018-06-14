@@ -1,7 +1,6 @@
 _site
 .sass-cache
 
-.vscode0
-.vscode
+#.vscode
 push.sh
 node_modules
