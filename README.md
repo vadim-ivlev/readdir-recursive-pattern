@@ -1,5 +1,5 @@
 # readdir-recursive-pattern
-Recursively list all files in a directory and its subdirectories that match a RegEx pattern.
+Recursively list all files in a directory and its subdirectories that match a RegEx pattern. [![Build Status](https://travis-ci.org/vadim-ivlev/readdir-recursive-pattern.svg?branch=master)](https://travis-ci.org/vadim-ivlev/readdir-recursive-pattern)
 
 
 ### Install
